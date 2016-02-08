@@ -1,0 +1,26 @@
+
+logging.file: shared/log/testlog
+logging.level.root: INFO
+logging.level.movies.domain: INFO
+
+---
+
+spring:
+    profiles: testing
+
+---
+
+spring:
+    profiles: dev
+
+---
+
+spring:
+    profiles: qa
+
+---
+
+spring:
+    profiles: prod
+
+---
